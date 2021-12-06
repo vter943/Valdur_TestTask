@@ -1,0 +1,5 @@
+15:25:03.118 [main] INFO  vdtask.TestBase - Тест стартовал успешно. searchItemTest
+15:25:26.553 [main] INFO  vdtask.TestBase - Тест прошел успешно searchItemTest
+ScreenshotC:\Users\Lenovo\Documents\AQA11GITHUB\Valdur_TestTask\screenshot1638800726529.png
+15:25:26.553 [main] INFO  vdtask.TestBase - тест завершен 
+15:25:26.553 [main] INFO  vdtask.TestBase - =================================================================================

@@ -2,6 +2,7 @@ package vdtask;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import vdtask.ApplicationManager;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +19,7 @@ public class TestBase {
 
     @BeforeMethod
     public void startTest(Method m) {
-        logger.info("Тест стартовал успешно." + " " +m.getName());
+        logger.info("Тест стартовал успешно." + " " + m.getName());
     }
 
     @BeforeSuite
@@ -26,14 +27,22 @@ public class TestBase {
         app.init();
     }
 
-    @AfterSuite(enabled = false)
+    @AfterSuite(enabled = true)
     public void tearDown() {
         app.stop();
     }
 
 
-    @AfterMethod
-    public void stopTest(Method m) {
-        logger.info(" тест завершен успешно" + " " +m.getName());
+    @AfterMethod(alwaysRun = true)
+    public void stopTest(ITestResult result) {
+        if (result.isSuccess()) {
+            logger.info("Тест прошел успешно " + result.getMethod().getMethodName()+ "\n"
+                    + "Screenshot" + app.getMarketItem().takeScreenshot());
+        } else
+            logger.error("Ошибка при прохождении теста " + result.getMethod().getMethodName() + "\n"
+                    + "Screenshot" + app.getMarketItem().takeScreenshot());
+
+        logger.info("тест завершен ");
+        logger.info("=================================================================================");
     }
 }
