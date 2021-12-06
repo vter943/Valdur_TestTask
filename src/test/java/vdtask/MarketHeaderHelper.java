@@ -9,8 +9,8 @@ public class MarketHeaderHelper extends HelperBase {
         super(wd);
     }
 
-    public void selectComputersDept(By locator) throws InterruptedException {
-        click(locator);
+    public void selectComputersDept() throws InterruptedException {
+        click(By.cssSelector("[href*='/catalog--elektronika']"));
         pause(200);
         if (isElementPresent(By.cssSelector("button[data-text='Принять все']"))) {
             click(By.cssSelector("button[data-text='Принять все']"));

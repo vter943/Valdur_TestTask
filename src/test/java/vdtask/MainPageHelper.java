@@ -9,7 +9,7 @@ public class MainPageHelper extends HelperBase {
         super(wd);
     }
 
-    public void goToMarket(By locator)
+    public void goToMarket()
     {
         click(By.cssSelector("[data-id='market']"));
     }
