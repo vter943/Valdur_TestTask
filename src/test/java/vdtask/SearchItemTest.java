@@ -8,12 +8,13 @@ import org.testng.annotations.Test;
 
 public class SearchItemTest extends TestBase {
     /*
+2.  Открыть www.yandex.ru
 3.	Перейти на Яндекс Маркет
 4.	Выбрать раздел  Компьютеры
 5.	Выбрать раздел Планшеты
 6.	Зайти в расширенный поиск
-7.	Задать параметр поиска от 20000 до 35000 рублей.
-8.	Выбрать производителя “Apple”
+7.	Задать параметр поиска от 20000 до 40000 рублей.
+8.	Выбрать производителя “Samsung”
 9.	Применить условия поиска
 10.	Запомнить второй элемент в результатах поиска
 11.	В поисковую строку ввести запомненное значение.
@@ -21,9 +22,9 @@ public class SearchItemTest extends TestBase {
 */
     @Test
     public void searchItemTest() throws InterruptedException {
-        app.getMainPage().goToMarket(By.cssSelector("[data-id='market']"));
+        app.getMainPage().goToMarket();
         app.getMarketItem().switchToNextTab();
-        app.getMarketHelper().selectComputersDept(By.cssSelector("[href*='/catalog--elektronika']"));
+        app.getMarketHelper().selectComputersDept();
         //metod kak prokrutit stranicu wniz!!!
         //Actions actions= new Actions(wd);
         //actions.sendKeys(Keys.PAGE_DOWN).build().perform();

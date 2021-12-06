@@ -2,7 +2,6 @@ package vdtask;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,9 +15,9 @@ public class MarketItemHelper extends HelperBase {
         type(By.cssSelector("#glpricefrom"), item.getPriceFrom());
         type(By.cssSelector("#glpriceto"), item.getPriceTo());
         click(By.xpath("//*[text()='"+ item.getBrand() +"']"));
-        //click(By.xpath("//*[@id='7893318_152981']"));
+ //click(By.xpath("//*[@id='7893318_152981']"));
 //[name$='Apple']  //*[@id="7893318_153043"]
-        //click(By.xpath("//*[text()='"+ item.getBrand() +"']"));
+ //click(By.xpath("//*[text()='"+ item.getBrand() +"']"));
 
     }
     //perekluchit na drugoj tab
