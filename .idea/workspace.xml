@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchItemTest.searchItemTest">
+  <component name="RunManager" selected="TestNG.vdtask">
     <configuration name="SearchItemTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,12 +84,12 @@
       <module name="Valdur_TestTask.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vdtask.*" />
+          <option name="PATTERN" value="vdtask.fw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vdtask" />
-      <option name="MAIN_CLASS_NAME" value="vdtask.SearchItemTest" />
+      <option name="MAIN_CLASS_NAME" value="vdtask.tests.SearchItemTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -101,12 +101,12 @@
       <module name="Valdur_TestTask.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vdtask.*" />
+          <option name="PATTERN" value="vdtask.fw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vdtask" />
-      <option name="MAIN_CLASS_NAME" value="vdtask.SearchItemTest" />
+      <option name="MAIN_CLASS_NAME" value="vdtask.tests.SearchItemTest" />
       <option name="METHOD_NAME" value="searchItemTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -133,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchItemTest.searchItemTest" />
         <item itemvalue="TestNG.vdtask" />
+        <item itemvalue="TestNG.SearchItemTest.searchItemTest" />
         <item itemvalue="TestNG.SearchItemTest" />
         <item itemvalue="Gradle.Tests in 'vdtask'" />
         <item itemvalue="Gradle.SearchItemTest" />
