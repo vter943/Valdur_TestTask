@@ -1,0 +1,43 @@
+16:28:25.438 [main] INFO  vdtask.TestBase - Тест стартовал успешно. searchItemTest
+16:28:25.444 [main] INFO  vdtask.TestBase - Start search By.cssSelector: [data-id='market']
+16:28:25.468 [main] INFO  vdtask.TestBase - By.cssSelector: [data-id='market'] found.
+16:28:25.664 [main] INFO  vdtask.TestBase - Start search By.cssSelector: [href*='/catalog--elektronika']
+16:28:28.923 [main] INFO  vdtask.TestBase - By.cssSelector: [href*='/catalog--elektronika'] found.
+16:28:33.147 [main] INFO  vdtask.TestBase - Start search By.cssSelector: button[data-text='Принять все']
+16:28:33.182 [main] INFO  vdtask.TestBase - By.cssSelector: button[data-text='Принять все'] found.
+16:28:33.183 [main] INFO  vdtask.TestBase - Start search By.cssSelector: button[data-text='Принять все']
+16:28:33.233 [main] INFO  vdtask.TestBase - By.cssSelector: button[data-text='Принять все'] found.
+16:28:33.363 [main] INFO  vdtask.TestBase - Start search By.xpath: //a[contains(text(),'Планшеты')]
+16:28:33.404 [main] INFO  vdtask.TestBase - By.xpath: //a[contains(text(),'Планшеты')] found.
+16:28:38.626 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpricefrom
+16:28:38.659 [main] INFO  vdtask.TestBase - By.cssSelector: #glpricefrom found.
+16:28:38.854 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpricefrom
+16:28:38.890 [main] INFO  vdtask.TestBase - By.cssSelector: #glpricefrom found.
+16:28:38.967 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpricefrom
+16:28:38.994 [main] INFO  vdtask.TestBase - By.cssSelector: #glpricefrom found.
+16:28:40.489 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpriceto
+16:28:40.535 [main] INFO  vdtask.TestBase - By.cssSelector: #glpriceto found.
+16:28:40.652 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpriceto
+16:28:40.685 [main] INFO  vdtask.TestBase - By.cssSelector: #glpriceto found.
+16:28:40.754 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #glpriceto
+16:28:40.774 [main] INFO  vdtask.TestBase - By.cssSelector: #glpriceto found.
+16:28:41.971 [main] INFO  vdtask.TestBase - Start search By.xpath: //*[text()='Samsung']
+16:28:42.013 [main] INFO  vdtask.TestBase - By.xpath: //*[text()='Samsung'] found.
+16:28:42.391 [main] INFO  vdtask.TestBase - Start search By.xpath: //*[@data-autotest-id='product-snippet'][2]//h3
+16:28:42.605 [main] INFO  vdtask.TestBase - By.xpath: //*[@data-autotest-id='product-snippet'][2]//h3 found.
+16:28:42.635 [main] INFO  vdtask.TestBase - Start search By.xpath: //*[@data-autotest-id='product-snippet'][2]//h3
+16:28:42.668 [main] INFO  vdtask.TestBase - By.xpath: //*[@data-autotest-id='product-snippet'][2]//h3 found.
+16:28:42.688 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #header-search
+16:28:42.718 [main] INFO  vdtask.TestBase - By.cssSelector: #header-search found.
+16:28:42.857 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #header-search
+16:28:42.901 [main] INFO  vdtask.TestBase - By.cssSelector: #header-search found.
+16:28:42.954 [main] INFO  vdtask.TestBase - Start search By.cssSelector: #header-search
+16:28:42.977 [main] INFO  vdtask.TestBase - By.cssSelector: #header-search found.
+16:28:43.368 [main] INFO  vdtask.TestBase - Start search By.cssSelector: [type=submit]
+16:28:43.433 [main] INFO  vdtask.TestBase - By.cssSelector: [type=submit] found.
+16:28:43.823 [main] INFO  vdtask.TestBase - Start search By.xpath: //*[@data-autotest-id='product-snippet'][1]//h3
+16:28:48.813 [main] INFO  vdtask.TestBase - By.xpath: //*[@data-autotest-id='product-snippet'][1]//h3 found.
+16:28:49.158 [main] INFO  vdtask.TestBase - Тест прошел успешно searchItemTest
+ScreenshotC:\Users\Lenovo\Documents\AQA11GITHUB\Valdur_TestTask\screenshot1638804529142.png
+16:28:49.158 [main] INFO  vdtask.TestBase - тест завершен 
+16:28:49.158 [main] INFO  vdtask.TestBase - =================================================================================
